@@ -69,7 +69,7 @@ int analyze(int input)
     return 3;
   else if (input >= 85)
     return 2;
-  else if (input > 0)
+  else if (input > 5)//greater than 5(5/1024) in order to reduce noises.
     return 1;
   else return 0;
 }
